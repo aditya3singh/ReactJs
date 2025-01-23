@@ -1,0 +1,44 @@
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
+import Header from '../../my-react-app/src/Header';
+import Footer from '../../my-react-app/src/Footer';
+import Food from '../../my-react-app/src/Food';
+
+
+function App() {
+  return(
+    <>
+    <Header />
+    <Food />
+    <Footer />
+    </>
+  );
+}
+
+
+
+// function App() {
+//   let [counter, setCounter] = useState(15);
+//   const addValues = () => {
+//     console.log("cliced", counter);
+//     counter += 1;
+//     setCounter(counter);
+//   }
+    
+//   return (
+//     <>
+//       {/* <h1>Hello Vite ke sath React!</h1>
+
+//       <h1>Counter value: {counter}</h1>
+//         <button onClick = {addValues}>Add values{counter}</button>
+//         <br />
+//         <button>remove values</button> */}
+
+//     </>
+//   )
+// }
+
+
+export default App
