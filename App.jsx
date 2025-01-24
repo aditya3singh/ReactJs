@@ -17,6 +17,33 @@ function App() {
   );
 }
 
+/*
+
+This is for features or something...
+
+
+
+export default Features;   
+
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
+import Features from './Features';
+
+
+function App() {
+  const option1 = [<li>"hi"</li>,<li> "everhyone" </li>,<li>"how"</li>];
+  const option2 = {a:"hi", b:"everhyone", c:"how", d:"are", e:"you"};
+  return (
+    <>
+      <Features title colors= {"red"} times={"12"} days={"wednesday"} feature = {option1}/>
+    </>
+  );
+}
+
+export default App
+*/
 
 
 // function App() {
