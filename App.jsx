@@ -8,6 +8,7 @@ import Food from '../../my-react-app/src/Food';
 import PropTypesJust from './PropTypesJust';
 import List from './List';
 import Buttons from './Buttons';
+import MyComponents from './MyComponents';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
     <PropTypesJust name="Aditya" age={21}  />
     <List />
     <Buttons />
+      <MyComponents />
     </>
   );
 }
