@@ -7,6 +7,8 @@ import Footer from '../../my-react-app/src/Footer';
 import Food from '../../my-react-app/src/Food';
 import PropTypesJust from './PropTypesJust';
 import List from './List';
+import Buttons from './Buttons';
+
 
 function App() {
   return(
@@ -16,6 +18,7 @@ function App() {
     <Footer />
     <PropTypesJust name="Aditya" age={21}  />
     <List />
+    <Buttons />
     </>
   );
 }
