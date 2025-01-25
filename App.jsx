@@ -9,7 +9,7 @@ import PropTypesJust from './PropTypesJust';
 import List from './List';
 import Buttons from './Buttons';
 import MyComponents from './MyComponents';
-
+import Counter from './Counter';
 
 function App() {
   return(
@@ -21,6 +21,8 @@ function App() {
     <List />
     <Buttons />
       <MyComponents />
+          <Counter />
+
     </>
   );
 }
