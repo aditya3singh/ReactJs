@@ -6,6 +6,7 @@ import Header from '../../my-react-app/src/Header';
 import Footer from '../../my-react-app/src/Footer';
 import Food from '../../my-react-app/src/Food';
 import PropTypesJust from './PropTypesJust';
+import List from './List';
 
 function App() {
   return(
@@ -14,6 +15,7 @@ function App() {
     <Food />
     <Footer />
     <PropTypesJust name="Aditya" age={21}  />
+    <List />
     </>
   );
 }
