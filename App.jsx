@@ -10,6 +10,7 @@ import List from './List';
 import Buttons from './Buttons';
 import MyComponents from './MyComponents';
 import Counter from './Counter';
+import Activity from './Activity'
 
 function App() {
   return(
@@ -22,6 +23,7 @@ function App() {
     <Buttons />
       <MyComponents />
           <Counter />
+      <Activity />
 
     </>
   );
