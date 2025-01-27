@@ -13,6 +13,9 @@ import Counter from './Counter';
 import Activity from './Activity'
 import Counter from './Counter';
 import Forms from './Forms';
+import LikesButton from './LikesButton';
+
+
 
 
 function App() {
@@ -29,6 +32,7 @@ function App() {
       <Activity />
           <Counter />
     <Forms />
+    <LikesButton />
 
 
     </>
