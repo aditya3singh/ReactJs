@@ -11,6 +11,8 @@ import Buttons from './Buttons';
 import MyComponents from './MyComponents';
 import Counter from './Counter';
 import Activity from './Activity'
+import Counter from './Counter';
+
 
 function App() {
   return(
@@ -24,6 +26,8 @@ function App() {
       <MyComponents />
           <Counter />
       <Activity />
+          <Counter />
+
 
     </>
   );
