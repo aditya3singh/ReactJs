@@ -12,6 +12,7 @@ import MyComponents from './MyComponents';
 import Counter from './Counter';
 import Activity from './Activity'
 import Counter from './Counter';
+import Forms from './Forms';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
           <Counter />
       <Activity />
           <Counter />
+    <Forms />
 
 
     </>
