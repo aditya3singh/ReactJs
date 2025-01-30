@@ -15,8 +15,7 @@ import Counter from './Counter';
 import Forms from './Forms';
 import LikesButton from './LikesButton';
 import Ludo from './Ludo';
-
-
+import TodoList from './TodoList';
 
 function App() {
   return(
@@ -34,6 +33,7 @@ function App() {
     <Forms />
     <LikesButton />
       <Ludo />
+      <TodoList />
 
 
     </>
