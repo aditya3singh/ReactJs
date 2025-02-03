@@ -16,6 +16,8 @@ import Forms from './Forms';
 import LikesButton from './LikesButton';
 import Ludo from './Ludo';
 import TodoList from './TodoList';
+import LotteryGame from './Lottergame';
+
 
 function App() {
   return(
@@ -35,6 +37,7 @@ function App() {
       <Ludo />
       <TodoList />
 
+            <LotteryGame n={3} winningSum={15}/>
 
     </>
   );
