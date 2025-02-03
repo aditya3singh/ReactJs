@@ -19,7 +19,7 @@ import TodoList from './TodoList';
 import LotteryGame from './Lottergame';
 
 
-function App() {
+export default function App() {
   return(
     <>
     <Header />
@@ -93,5 +93,3 @@ export default App
 //   )
 // }
 
-
-export default App
